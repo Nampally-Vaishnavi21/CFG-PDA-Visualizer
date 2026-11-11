@@ -1,0 +1,5 @@
+digraph A { bgcolor="white"; label="Tree 1: num + (num * num)"; labelloc=t; fontname="Helvetica"; fontsize=12;
+node [fontname="Helvetica", fontsize=11, shape=circle, style=filled, fillcolor="#F4F7FB", color="#1F3A5F"]; edge [arrowhead=none, color="#5B6B7F"];
+e0 [label="E"]; e1 [label="E"]; p [label="+", shape=plaintext, fillcolor="white"]; e2 [label="E"];
+n1 [label="num", shape=box]; e3 [label="E"]; m [label="*", shape=plaintext, fillcolor="white"]; e4 [label="E"]; n2 [label="num", shape=box]; n3 [label="num", shape=box];
+e0 -> e1; e0 -> p; e0 -> e2; e1 -> n1; e2 -> e3; e2 -> m; e2 -> e4; e3 -> n2; e4 -> n3; }
